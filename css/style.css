@@ -3,13 +3,15 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
   width: 100%;
   height: 100%;
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
-  background-color: black;
+  background-color: #05080b;
 }
+
 html {
   width: 100%;
   height: 100%;
@@ -45,16 +47,17 @@ p {
     line-height: 1.6;
   }
 }
-a {
-  color: #42DCA3;
+.social a{
+  color: #05080b;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-a:hover,
-a:focus {
+.social a:hover,
+.social a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: white;
+  background-color: #EF5350 !important;
 }
 .light {
   font-weight: 400;
@@ -64,7 +67,7 @@ a:focus {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: black;
+  
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -131,7 +134,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+  background: url(../assets/header_2.png) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -232,7 +235,7 @@ a:focus {
   padding: 50px 0;
   height:100%;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -320,3 +323,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+.thumbnail img{        
+    width: 300px; 
+    height: 200px;
+    overflow: auto;
+}
+
+
