@@ -31,7 +31,7 @@ class Projects extends React.Component {
 					                	label={<i style={{color: "#c7d9e1", fontSize:"xx-large"}}className="fa fa-github" aria-hidden="true"></i>}
 					               		labelColor="#c7d9e1"
 					                  backgroundColor="#05080b" 
-					                  href="https://www.github.com/juancafe4"
+					                  href="https://github.com/juancafe4/RemindMEiOS"
 			                		/>
         								</li>
         							</ul>
@@ -48,7 +48,7 @@ class Projects extends React.Component {
 					                	label={<i style={{color: "#c7d9e1", fontSize:"xx-large"}}className="fa fa-github" aria-hidden="true"></i>}
 					               		labelColor="#c7d9e1"
 					                  backgroundColor="#05080b" 
-					                  href="https://www.github.com/juancafe4"
+					                  href="https://github.com/juancafe4/CampusBookShare"
 			                		/>
         								</li>
         							</ul>
@@ -65,7 +65,7 @@ class Projects extends React.Component {
 					                	label={<i style={{color: "#c7d9e1", fontSize:"xx-large"}}className="fa fa-github" aria-hidden="true"></i>}
 					               		labelColor="#c7d9e1"
 					                  backgroundColor="#05080b" 
-					                  href="https://www.github.com/juancafe4"
+					                  href="https://github.com/juancafe4/felp-yelp-for-farmers-market"
 			                		/>
         								</li>
         							</ul>
