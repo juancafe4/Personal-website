@@ -8,12 +8,13 @@ class Jumbotron extends React.Component {
     }
     render() {
         return (
-        	<header className="intro" style={{marginTop: 50}}>
+        	<header id="home" className="intro" style={{marginTop: 50}}>
                 <div className="intro-body">
                     <div className="container" style={{marginTop: 50}}>
                         <div className="row">
                             <div className="col-md-8 col-md-offset-2">
-                                <img id="profile" className="img-circle img-responsive" src="../../assets/profile.jpg" align="middle"/>
+                                <img id="profile" className="img-circle img-responsive" src="../../assets/profile.jpg "/>
+                                <br/>
                                 <p className="intro-text">
                                     Juan Carlos Ferrel
                                     <br/>
