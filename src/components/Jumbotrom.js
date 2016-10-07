@@ -1,16 +1,6 @@
 import React from 'react';
-
-let imgUrl = '../../assets/IMG_2903.jpg';
-let style = {"backgroundImage": "url(https://s3-us-west-2.amazonaws.com/juancafe2/IMG_2903.jpg)",
-"paddingTop": "0px",
-"paddingBottom": "0px",
-"backgroundSize": "cover",
-"background": "contain",
-"width": "100%",
-"height": "1000px",
-"maxWidth":"1400px"
-}
-
+import {FloatingActionButton, RaisedButton} from 'material-ui';
+import NavigationDown from 'material-ui/svg-icons/navigation/arrow-drop-down.js';
 class Jumbotron extends React.Component {
     constructor(props) {
         super(props);
@@ -18,11 +8,34 @@ class Jumbotron extends React.Component {
     }
     render() {
         return (
-        	<header className="intro">
+        	<header className="intro" style={{marginTop: 50}}>
                 <div className="intro-body">
-                    <div className="container">
+                    <div className="container" style={{marginTop: 50}}>
                         <div className="row">
+                            <div className="col-md-8 col-md-offset-2">
+                                <img id="profile" className="img-circle img-responsive" src="../../assets/profile.jpg" align="middle"/>
+                                <p className="intro-text">
+                                    Juan Carlos Ferrel
+                                    <br/>
+                                    Software Developer
+                                </p>
 
+                               <div style={{marginBottom: "25px"}}>
+                                    <RaisedButton
+                                          label="My Resume"
+                                          labelColor="white"
+                                          labelPosition="before"
+                                          backgroundColor={"#EF5350"}
+                                          icon={<i style={{color: "white"}}  className="material-icons">insert_drive_file</i>}
+                                          href="https://drive.google.com/file/d/0By7yp7jnOQoBTFI4bXRDdWpPRlk/view?usp=sharing"
+                                    />
+                                </div>
+
+                               <FloatingActionButton backgroundColor={"#1d313f"}>
+                                    <i className="material-icons">expand_more</i>
+                               </FloatingActionButton>
+                              
+                            </div>
                         </div>
                     </div>
                 </div>
